@@ -11,6 +11,7 @@ html
         //- meta(name="viewport" content="width=device-width, initial-scale=1")
         link(href='css/front.css', rel='styleSheet')
         link(href='css/nav.css', rel='styleSheet')
+        block css
         != css()
 
     body
@@ -22,19 +23,19 @@ html
                     p
                         a(href="http://aut.ac.ir/")
                             img#logo(alt="[AUT logo]", src="img/aut.png")
-                            div(style={width: '500px'})
-                                h4 Senior Undergraduate Student
-                                address
+                        div(style={width: '500px'})
+                            h4 Senior Undergraduate Student
+                            address
                                 a(href="http://ceit.aut.ac.ir/") Department of Computer Engineering and Information Technology
                                 br
                                 | 424 Hafez Ave., Tehran, Iran
-                                br
-                                | elahejalalpoor@aut.ac.ir | elahejalalpoor@gmail.com
-                                br
-                            p
-                                a(href="https://www.facebook.com/elahe.jalalpoor") Facebook &nbsp;
-                                a(href="https://www.linkedin.com/pub/elahe-jalalpoor/b9/8/398") LinkedIn &nbsp;
-                                a(href="https://www.github.com/elahejalalpour") Github &nbsp;
+                            br
+                            | elahejalalpoor@aut.ac.ir | elahejalalpoor@gmail.com
+                            br
+                        p
+                            a(href="https://www.facebook.com/elahe.jalalpoor") Facebook &nbsp;
+                            a(href="https://www.linkedin.com/pub/elahe-jalalpoor/b9/8/398") LinkedIn &nbsp;
+                            a(href="https://www.github.com/elahejalalpour") Github &nbsp;
             hr
             nav#top-nav
                 ul
