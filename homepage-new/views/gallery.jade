@@ -1,3 +1,37 @@
-//
-   Created by parham on 8/14/15.
+extends layout
+block css
+    link(href='css/gallery.css', rel='styleSheet')
+block content
+    #content-slider
+        // Slide container
+        #slider
+            // Mask
+            #mask
+                ul
+                    li(id="first", class="first_animation")
+                        a(href="#")
+                            img(src="img/1.jpg", alt="1")
+                        #tooltip
+                            h1 ...
+                    li(id="second", class="second_animation")
+                        a(href="#")
+                            img(src="img/2.jpg", alt="1")
+                        #tooltip
+                            h1 ...
+                    li(id="third", class="third_animation")
+                        a(href="#")
+                            img(src="img/3.jpg", alt="1")
+                        #tooltip
+                            h1 ...
+                    li(id="fourth", class="fourth_animation")
+                        a(href="#")
+                            img(src="img/4.jpg", alt="1")
+                        #tooltip
+                            h1 ...
+                    li(id="fifth", class="fifth_animation")
+                        a(href="#")
+                            img(src="img/5.jpg", alt="1")
+                        #tooltip
+                            h1 ...
+            div#progress-bar
 
