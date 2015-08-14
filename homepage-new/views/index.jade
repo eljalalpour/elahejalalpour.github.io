@@ -1,30 +1,149 @@
 extends layout
 
 block content
-    #contents
-        #boc
-            a(name="research_int")
-            h2 Research Interests
-            ul(style={'text-align': "justify", 'text-justify': "inter-word"})
-                li Computer Networks
-                li Software Defined Networking
-                li Internet of Things
-                li Computer and System Architecture
-                li FPGA
-        #box
-            a(name="Education")
-            h2 Education
-            ul(style={'text-align': "justify", 'text-justify': "inter-word"})
-                li
-                    | Amirkabir University of Technology (Tehran Polytechnic)
-                    ul(style={'list-style-type': "none"})
-                        li BS Candidate, Computer Engineering, Hardware
-                        li September 2012 - June 2016
-                        li GPA: <strong>17.31</strong> / 20 (110 / 140 Units)
-                br
-                li
-                    | Manzoumeh Kherad Institute
-                    ul(style={'list-style-type': "none"})
-                        li Diploma in Mathematics and Physics
-                        li September 2008 - June 2012
-                        li GPA: <strong>19.52</strong> / 20
+    #boc
+        a(name="research_int")
+        h2 Research Interests
+        ul(style={'text-align': "justify", 'text-justify': "inter-word"})
+            li Computer Networks
+            li Software Defined Networking
+            li Internet of Things
+            li Computer and System Architecture
+            li FPGA
+    #box
+        a(name="Education")
+        h2 Education
+        ul(style={'text-align': "justify", 'text-justify': "inter-word"})
+            li
+                | Amirkabir University of Technology (Tehran Polytechnic)
+                ul(style={'list-style-type': "none"})
+                    li BS Candidate, Computer Engineering, Hardware
+                    li September 2012 - June 2016
+                    li GPA: <strong>17.31</strong> / 20 (110 / 140 Units)
+            br
+            li
+                | Manzoumeh Kherad Institute
+                ul(style={'list-style-type': "none"})
+                    li Diploma in Mathematics and Physics
+                    li September 2008 - June 2012
+                    li GPA: <strong>19.52</strong> / 20
+    #boc
+        a(name="patents")
+        h2 Patents
+        ul(style={'text-align': "justify", 'text-justify': "inter-word"})
+            li
+                | Intelligent Control System of Steering Wheel 
+                ul(style={'list-style-type': "none"})
+                    li Issued, 03 / 2011
+                    li IR Patent: <strong>69363</strong>
+    #box
+        a(name="honors")
+        h2 Honors & Awards
+        ul(style={'text-align': "justify", 'text-justify': "inter-word"})
+            li Ranked in top 1.6% of Nation-wide University Entrance Exam among all Iranian Students of Math. & Physics (2012)
+            br
+            li Ranked in top 0.1% of Nation-wide University Entrance Exam among all Iranian Students of Foreign Languages (English) (2012)
+            br
+            li Ranked in top 4 Computer Hardware Engineering Students (2013 to 2015) 
+    #box
+        a(name="research")
+        h2 Research Experiences
+        ul
+            li <strong>Consistent update in SDN</strong>, Spring 2015
+            ul(style={'list-style-type': "none"})
+                li This research was done for Research Method and Technical Report Writings course (Technical Report and Poster).
+    #box
+        a(name="teaching")
+        h2 Teaching
+        ul(style={'text-align': "justify", 'text-justify': "inter-word;"})
+            li <strong>Computer Architecture</strong>, Under supervision of Prof. Zarandi, Spring 2015
+    #box
+        a(name="languages")
+        h2 Languages
+        ul(style={'text-align': "justify", 'text-justify': "inter-word;"})
+            li Persian
+            ul(style={'list-style-type': "none"})
+                li Native proficiency
+            br
+            li English
+            ul(style={'list-style-type': "none"})
+                li Professional working proficiency
+            br
+            li French
+            ul(style={'list-style-type': "none"})
+                li Elementary proficiency
+    #box
+        a(name="projects")
+        h2 Projects
+        ul(style={'text-align': "justify", 'text-justify': "inter-word"})
+            li <strong>Phone Book</strong>
+            ul(style={'list-style-type':"none"})
+                li Implementation of Phone Book with file - C
+            br
+            li <strong>HTTP Proxy</strong>
+            ul(style={'list-style-type':"none"})
+                li Implementation of a HTTP and HTTPS proxy server - JAVA
+            <br>
+            li <strong>JUMONG (Java Ultimate Maze Obstacle Neutralizer Game)</strong>
+            ul(style={'list-style-type':"none"})
+                li Implementation of a graphical game with multiplayer support - JAVA
+            br
+            li <strong>FAT Parser</strong>
+            ul(style={'list-style-type':"none"})
+                li Implementing FAT-16 and FAT-32 parser with delete, list and retrieve support - C
+            br
+            li <strong>Disassembling DOS Executable File</strong>
+            br
+            li <strong>FPGA Co-Design</strong>
+            ul(style={'list-style-type':"none"})
+                li Implementing hardware modules in VHDL and using them for having a cryptographic algorithm in a software environment - VHDL & C
+            br
+            li <strong>Transistor Level Ripple Adder</strong>
+            ul(style={'list-style-type':"none"})
+                li Designing and implementing transistor level ripple adder in three families: Static CMOS, Dynamic CMOS and DCVSL - HSPICE
+            br
+            li <strong>Simon Game</strong>
+            ul(style={'list-style-type':"none"})
+                li Design and implementation of Simon game's logic circuit - Proteus
+    #box
+        a(name="skills")
+        h2 Technical Skills
+        ul(style="text-align: justify;text-justify: inter-word;")
+            li <strong>Programming Languages:</strong>
+            ul(style="list-style-type:none")
+                li Java, C/C++, Python, Verilog, VHDL, 8086 Assembly
+            br
+            li <strong>Typesetting:</strong>
+            ul(style="list-style-type:none")
+                li LaTeX, Microsoft Word, LibreOffice, Pages, Vim
+            br
+            li <strong>Operating System:</strong>
+            ul(style="list-style-type:none")
+                li OS X, Windows, Linux (Ubuntu and Fedora)
+            br
+            li <strong>Web Development:</strong>
+            ul(style="list-style-type:none")
+                li HTML
+            br
+            li <strong>Hardware Simulators:</strong>
+            ul(style="list-style-type:none")
+                li Xilinx ISE Design Suite, P-Spice, H-Spice, Proteus
+            br
+            li <strong>Other:</strong>
+            ul(style="list-style-type:none")
+                li Netbeans, Eclipse, Wireshark
+    #box
+        a(name="references")
+        h2 References
+        ul(style="text-align: justify;text-justify: inter-word;")
+            li <strong>Professor Bahador Bakhshi</strong>
+            | Computer Engineering and IT Department, Amirkabir University of Technology
+            br
+            | Email: bbakhshi@aut.ac.ir
+            br
+            br
+            li <strong>Professor Hamid Reza Zarandi</strong>
+            | Computer Engineering and IT Department, Amirkabir University of Technology
+            br
+            | Email: h_zarandi@aut.ac.ir
+
