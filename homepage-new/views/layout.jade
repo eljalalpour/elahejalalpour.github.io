@@ -1,0 +1,78 @@
+doctype html
+html
+
+    head
+        meta(charset='utf8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+        meta(name='description', content='Homepage of Elahe Jalalpour (elahejalalpour) at Amirkabir University of Technology')
+        meta(name='author', content= "Elahe Jalalpour")
+        meta(name='keywords', content='Elahe Jalalpour, Resume, Homepage')
+        //- uncomment if your site is responsive!
+        //- meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(href='css/front.css', rel='styleSheet')
+        link(href='css/nav.css', rel='styleSheet')
+        != css()
+
+    body
+        #top_contents
+            img#headshot(src="img/headshot.jpg", alt="[Elahe Jalalpour photo]")
+            div(class="box")
+                #main_information
+                    h1#title Elahe Jalalpour
+                    p
+                        a(href="http://aut.ac.ir/")
+                            img#logo(alt="[AUT logo]", src="img/aut.png")
+                            div(style={width: '500px'})
+                                h4 Senior Undergraduate Student
+                                address
+                                a(href="http://ceit.aut.ac.ir/") Department of Computer Engineering and Information Technology
+                                br
+                                | 424 Hafez Ave., Tehran, Iran
+                                br
+                                | elahejalalpoor@aut.ac.ir | elahejalalpoor@gmail.com
+                                br
+                            p
+                                a(href="https://www.facebook.com/elahe.jalalpoor") Facebook &nbsp;
+                                a(href="https://www.linkedin.com/pub/elahe-jalalpoor/b9/8/398") LinkedIn &nbsp;
+                                a(href="https://www.github.com/elahejalalpour") Github &nbsp;
+            hr
+            nav#top-nav
+                ul
+                    li
+                        a(class="bold", title="Home", href="index.html") Home
+                        ul
+                            li
+                                a(class="bold", href="index.html#research_int") Research Interests
+                            li
+                                a(class="bold", href="index.html#education") Education
+                            li
+                                a(class="bold", href="index.html#patents") Patents
+                            li
+                                a(class="bold", href="index.html#honors") Honors & Awards
+                            li
+                                a(class="bold", href="index.html#research") Research Experiences
+                            li
+                                a(class="bold", href="index.html#teaching") Teaching
+                            li
+                                a(class="bold", href="index.html#publications") Publications
+                            li
+                                a(class="bold", href="index.html#languages") Languages
+                            li
+                                a(class="bold", href="index.html#projects") Projects
+                            li
+                                a(class="bold", href="index.html#skills") Technical Skills
+                            li(class="last")
+                                a(class="bold", href="index.html#references") References
+                    li
+                        a(class="bold", href="presentations.html") Presentations
+                    li
+                        a(class="bold", href="gallery.html") Gallery
+                    li
+                        a(class="bold", href="Jalalpour-CV.pdf") Curriculum Vitae
+                        ul
+                            li
+                                a(class="bold", href="Jalalpour-CV.pdf") pdf
+                            li(class="last")
+                                a(class="bold", href="Jalalpour-CV.zip") latex
+        block content
+        != js()
