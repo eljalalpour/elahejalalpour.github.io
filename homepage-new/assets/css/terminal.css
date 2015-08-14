@@ -1,5 +1,5 @@
 #shell-panel {
-    display: block;
+    position: relative;
     height: 400px;
     width: 97.0%;
     opacity: 0.9;
