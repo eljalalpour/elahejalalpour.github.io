@@ -1,0 +1,15 @@
+#shell-panel {
+    display: block;
+    height: 400px;
+    width: 97.0%;
+    opacity: 0.9;
+    background-color: #002f05;
+    color: #00fe00;
+    padding: 20px 20px 20px 20px;
+    margin: 80px auto;
+    z-index: 1000;
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 0.9em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
