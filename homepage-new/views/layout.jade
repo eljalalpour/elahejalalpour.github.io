@@ -1,3 +1,4 @@
+- var today = new Date()
 doctype html
 html
 
@@ -69,8 +70,6 @@ html
                     li
                         a(class="bold", href="gallery.html") Gallery
                     li
-                        a(class="bold", href="terminal.html") Terminal :)
-                    li
                         a(class="bold", href="Jalalpour-CV.pdf") Curriculum Vitae
                         ul
                             li
@@ -81,6 +80,7 @@ html
             block content
             br
             hr
+            | This page was updated by Elahe on #{today.toDateString()}.
         // Start of StatCounter Code
         script(type="text/javascript")
             | var sc_project = 10523949;
