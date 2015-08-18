@@ -1,7 +1,7 @@
 html {
     color: black;
     text-align: left;
-    font-family: garamond, geneva, calibri, georgia, palatino, times, serif;
+    font-family: garamond, geneva, calibri, georgia, palatino, calibri, serif;
 }
 
 body {
@@ -37,7 +37,7 @@ a {
 }
 
 .validator-link {
-    font-family: Arial, Helvetica, times, serif;
+    font-family: Arial, Helvetica, calibri, serif;
     font-size: 0.8em;
 }
 

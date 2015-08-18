@@ -9,7 +9,7 @@ Elahe Jalalpour personal homepage and resume.
 - run `npm install`
 - run `roots watch`
 - ???
-- get money
+- get homepage
 
 ### Deploying
 
