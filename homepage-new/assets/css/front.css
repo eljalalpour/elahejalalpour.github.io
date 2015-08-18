@@ -131,14 +131,14 @@ div.abstract {
     border-radius: 0 120px 120px 120px;
     width: 300px;
     float: left;
-    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s, height 4s, border-radius 2s;
+    /* -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    /* transition: width 2s, height 4s, border-radius 2s; */
 }
 
-#headshot:hover {
+/*#headshot:hover {
     width: 400px;
     border-radius: 0 60px 60px 60px;
-}
+}*/
 
 #logo {
     width: 90px;
