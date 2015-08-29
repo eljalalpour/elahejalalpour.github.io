@@ -128,7 +128,7 @@ div.abstract {
 }
 
 #headshot {
-    border-radius: 0 120px 120px 120px;
+    /* border-radius: 0 120px 120px 120px; */
     width: 300px;
     float: left;
     /* -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
