@@ -14,3 +14,5 @@ module.exports =
 
   stylus:
     use: [axis(), rupture(), autoprefixer()]
+  jade:
+    pretty: true
