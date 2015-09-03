@@ -18,7 +18,7 @@
     /* border-radius: 0 120px 120px 120px; */
     margin-top: 10px;
     margin-bottom: 5px;
-    width: 350px;
+    width: 300px;
     float: left;
     /* -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
     /* transition: width 2s, height 4s, border-radius 2s; */
@@ -31,34 +31,46 @@
 
 #uni_logo {
     width: 90px;
+    float: left;
+    padding-right: 10px;
 }
 
 #fk_logo {
-    background: #007FFF url('../img/fk_ico_sm.png') no-repeat center;
+    background: #7AA9F7 url('../img/fk_ico_sm.png') no-repeat center;
     box-sizing: border-box;
     display: inline-block;
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#sto_logo {
+    background: #ff0000 url('../img/sto_ico_sm.png') no-repeat center;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 55px;
+    width: 55px;
     margin-left: 5px;
     padding: 5px;
 }
 
 #lk_logo {
-    background: #007FFF url('../img/lk_ico_sm.png') no-repeat center;
+    background: #7AA9F7 url('../img/lk_ico_sm.png') no-repeat center;
     box-sizing: border-box;
     display: inline-block;
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
     margin-left: 5px;
     padding: 5px;
 }
 
 #gh_logo {
-    background: #2ecc40 url('../img/gh_ico_sm.png') no-repeat center;
+    background: #7AA9F7 url('../img/gh_ico_sm.png') no-repeat center;
     box-sizing: border-box;
     display: inline-block;
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
     margin-left: 5px;
     padding: 5px;
 }
