@@ -10,6 +10,7 @@ html
         meta(name='author', content= "Elahe Jalalpour")
         meta(name='keywords', content='Elahe Jalalpour, Resume, Homepage')
         link(href='css/front.css', rel='stylesheet')
+        link(href='css/header.css', rel='stylesheet')
         link(href='css/nav.css', rel='stylesheet')
         block css
         != css()
@@ -23,7 +24,7 @@ html
                     h1#title Elahe Jalalpour
                     p
                         a(href="http://aut.ac.ir/")
-                            img#logo(alt="[AUT logo]", src="img/aut.png")
+                            img#uni_logo(alt="[AUT logo]", src="img/aut.png")
                     div(style={width: '500px'})
                         h4 Senior Undergraduate Student
                         address
@@ -34,9 +35,9 @@ html
                         | el.jalalpour@aut.ac.ir | el.jalalpour@gmail.com
                         br
                     p
-                        a(href="https://www.facebook.com/elahe.jalalpoor") Facebook &nbsp;
-                        a(href="https://www.linkedin.com/pub/elahe-jalalpoor/b9/8/398") LinkedIn &nbsp;
-                        a(href="https://www.github.com/elahejalalpour") Github &nbsp;
+                        a#fk_logo(href="https://www.facebook.com/elahe.jalalpoor", target="_blank")
+                        a#lk_logo(href="https://www.linkedin.com/pub/elahe-jalalpoor/b9/8/398", target="_blank")
+                        a#gh_logo(href="https://www.github.com/elahejalalpour", target="_blank")
             hr
             nav#top-nav
                 ul

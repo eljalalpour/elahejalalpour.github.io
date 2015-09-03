@@ -111,43 +111,8 @@ div.abstract {
     padding: 0 0;
 }
 
-#title {
-    font-style: italic;
-    white-space: nowrap;
-    font-weight: 900;
-}
-
-#contents {
-    width: 82%;
-    margin: auto;
-}
-
-#top_contents {
-    width: 82%;
-    margin: auto;
-}
-
-#headshot {
-    /* border-radius: 0 120px 120px 120px; */
-    width: 300px;
-    float: left;
-    /* -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    /* transition: width 2s, height 4s, border-radius 2s; */
-}
-
-/*#headshot:hover {
-    width: 400px;
-    border-radius: 0 60px 60px 60px;
-}*/
-
-#logo {
-    width: 90px;
-}
-
-#main_information {
-    width: 500px;
-    padding: 5px 20px;
-    float: left;
+h1, h4 {
+    margin: 0;
 }
 
 .paper-title {
@@ -156,8 +121,4 @@ div.abstract {
 
 .paper-venue {
     font-style: italic;
-}
-
-h1, h4 {
-    margin: 0;
 }
