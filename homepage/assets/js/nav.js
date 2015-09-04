@@ -8,12 +8,12 @@ $(document).ready(function () {
 
         console.log($(window).scrollTop());
 
-        if ($(window).scrollTop() > 550) {
-            $('#top-nav').addClass('navbar-fixed-top');
+        if ($(window).scrollTop() > 350) {
+            $('#top-nav').addClass('nav-fixed-top');
         }
 
-        if ($(window).scrollTop() < 551) {
-            $('#top-nav').removeClass('navbar-fixed-top');
+        if ($(window).scrollTop() < 351) {
+            $('#top-nav').removeClass('nav-fixed-top');
         }
     });
 });
