@@ -1,17 +1,38 @@
-/* SLIDER STRUCTURE */
+/* Utilises functions and variables */
 
 border-radius()
   -webkit-border-radius arguments
   -moz-border-radius arguments
   border-radius arguments
 
+image-width = 716px
+image-height = 724px
+
+/* Slider structure */
+
 #slider
   background #000
   border 5px solid #BB00FF
   border-radius 4px
   box-shadow 1px 1px 5px rgba(0, 0, 0, 0.7)
-  height 724px
-  width 716px
+  height image-height
+  width image-width
   margin 80px auto 0
   overflow visible
   position relative
+
+/* HIDE ALL OUTSIDE OF THE SLIDER */
+
+#mask
+  overflow hidden
+  height 724px
+
+#slider li
+  /* Width Image */
+  width image-width
+  /* Height Image */
+  height image-height
+  position absolute
+  /* Original Position - Outside of the Slider */
+  top -729px
+  list-style none
