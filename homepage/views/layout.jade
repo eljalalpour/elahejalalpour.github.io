@@ -12,14 +12,12 @@ html
 
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js")
         script(src="js/nav.js")
+        block js
 
         link(href='css/front.css', rel='stylesheet')
         link(href='css/header.css', rel='stylesheet')
         link(href='css/nav.css', rel='stylesheet')
-
         block css
-        != css()
-        block js
 
     body
         #top_contents
