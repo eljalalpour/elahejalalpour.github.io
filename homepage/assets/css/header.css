@@ -43,6 +43,8 @@
     width: 55px;
     margin-left: 5px;
     padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 #sto_logo {
@@ -63,6 +65,8 @@
     width: 55px;
     margin-left: 5px;
     padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 #gh_logo {
@@ -73,6 +77,8 @@
     width: 55px;
     margin-left: 5px;
     padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 #main_information {
