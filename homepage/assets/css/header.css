@@ -35,8 +35,7 @@
     padding-right: 10px;
 }
 
-#fk_logo {
-    background: #7AA9F7 url('../img/fk_ico_sm.png') no-repeat center;
+.logo {
     box-sizing: border-box;
     display: inline-block;
     height: 55px;
@@ -47,38 +46,28 @@
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
-#sto_logo {
-    background: #ff0000 url('../img/sto_ico_sm.png') no-repeat center;
-    box-sizing: border-box;
-    display: inline-block;
-    height: 55px;
-    width: 55px;
-    margin-left: 5px;
-    padding: 5px;
+#fk_logo {
+    background: #7AA9F7 url('../img/fk_ico_sm.png') no-repeat center;
+}
+
+#fk_logo:hover {
+    background-color: #BB00FF;
 }
 
 #lk_logo {
     background: #7AA9F7 url('../img/lk_ico_sm.png') no-repeat center;
-    box-sizing: border-box;
-    display: inline-block;
-    height: 55px;
-    width: 55px;
-    margin-left: 5px;
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+#lk_logo:hover {
+    background-color: #BB00FF;
 }
 
 #gh_logo {
     background: #7AA9F7 url('../img/gh_ico_sm.png') no-repeat center;
-    box-sizing: border-box;
-    display: inline-block;
-    height: 55px;
-    width: 55px;
-    margin-left: 5px;
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+#gh_logo:hover {
+    background-color: #BB00FF;
 }
 
 #main_information {
