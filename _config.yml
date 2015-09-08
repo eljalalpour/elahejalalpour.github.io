@@ -1,17 +1,17 @@
 # Site settings
-description: A blog about lorem ipsum dolor sit amet
+description: A blog about Elahe Jalalpour
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site 
+url: "https://elahejalalpour.github.io" # the base hostname & protocol for your site 
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+username: Elahe Jalalpour
+user_description: 
+user_title: 
+email: el.jalalpour@gmail.com
+twitter_username: elahejalalpoor
+github_username:  elahejalalpour
+gplus_username:  el.jalalpour
+disqus_username: 
 
 # Build settings
 markdown: kramdown
