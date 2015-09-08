@@ -335,7 +335,7 @@ a.slideButton, .dosearch {
 
 .dosearch {
     right: 10px;
-    background: #0558c6;
+    background: #BB00FF;
     border-radius: .1875rem;
     padding: .125rem .1875rem
 }
@@ -344,7 +344,7 @@ a.slideButton, .dosearch {
     cursor: pointer;
     padding: .3125rem;
     border-radius: .1875rem;
-    background: #0558c6;
+    background: #BB00FF;
     width: 2.5rem;
     height: 2.5rem;
     fill: #fff
